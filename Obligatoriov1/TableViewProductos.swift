@@ -12,9 +12,9 @@ class ViewControllerProductos: UIViewController, UITableViewDelegate, UITableVie
     
     
     
-    let producto1 = Producto (descuento: "Descuento del 90%", nombre: "90% en Restoran", imagen: "35194")
+    let producto1 = Producto (descuento: "Descuento del 90%", nombre: "90% en Congelados", imagen: "35194")
     let producto2 = Producto (descuento: "Descuento del 40%", nombre: "40% en Bebidas", imagen: "35194")
-    let producto3 = Producto (descuento: "Descuento del 60%", nombre: "60% en Pizzas", imagen: "35194")
+    let producto3 = Producto (descuento: "Descuento del 60%", nombre: "60% en Desodorantes", imagen: "desodorante")
     var lstProductos: [Producto] = []
     
     

@@ -17,8 +17,7 @@ class ViewControllerTarjeta: UIViewController {
     @IBOutlet weak var labelPuntos: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myTimer = NSTimer(timeInterval: 15.0, target: self, selector: #selector(ViewControllerTarjeta.refresh), userInfo: nil, repeats: true)
-        NSRunLoop.mainRunLoop().addTimer(myTimer, forMode: NSDefaultRunLoopMode)
+        
         
         labelPuntos.text = "Puntos: " + puntos.description
         let email = defaults.stringForKey("Email")
@@ -27,6 +26,8 @@ class ViewControllerTarjeta: UIViewController {
         if email == nil || password == nil{
             self.performSegueWithIdentifier("toLogin", sender: nil)
         }
+        let myTimer = NSTimer(timeInterval: 15.0, target: self, selector: #selector(ViewControllerTarjeta.refresh), userInfo: nil, repeats: true)
+        NSRunLoop.mainRunLoop().addTimer(myTimer, forMode: NSDefaultRunLoopMode)
     }
     
     override func didReceiveMemoryWarning() {

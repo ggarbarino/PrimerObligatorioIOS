@@ -122,7 +122,7 @@
                                         <rect key="frame" x="0.0" y="92" width="600" height="119"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="c1L-gx-ARV" id="VMg-j4-xJS">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="118.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="118"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Descuento" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SeO-mQ-QMO">
@@ -291,7 +291,6 @@
                         <color key="backgroundColor" red="0.58897731499999995" green="0.78194998029999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="cAe-Jt-vW1" firstAttribute="top" secondItem="sAX-fd-IWM" secondAttribute="bottom" constant="20" id="4Yi-r2-TPC"/>
-                            <constraint firstItem="sAX-fd-IWM" firstAttribute="leading" secondItem="Isp-0Z-36u" secondAttribute="leadingMargin" constant="100" id="BHW-yX-BY5"/>
                             <constraint firstItem="sAX-fd-IWM" firstAttribute="centerX" secondItem="Isp-0Z-36u" secondAttribute="centerX" id="CjH-eW-veB"/>
                             <constraint firstItem="cAe-Jt-vW1" firstAttribute="leading" secondItem="Isp-0Z-36u" secondAttribute="leadingMargin" constant="178" id="Ih7-lh-Qde"/>
                             <constraint firstItem="cAe-Jt-vW1" firstAttribute="centerX" secondItem="Isp-0Z-36u" secondAttribute="centerX" id="b8C-BY-7cw"/>
